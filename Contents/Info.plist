@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.skoredev.stacks.phpStack</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1.0</string>
+	<key>title</key>
+	<string>Code PHP</string>
+	<key>subtitle</key>
+	<string>Code in PHP</string>
+	<key>group</key>
+	<string>Skore Tech</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>echo (&quot;hello&quot;);</string>
+			<key>id</key>
+			<string>phpCode</string>
+			<key>title</key>
+			<string>PHP Here</string>
+			<key>toolTip</key>
+			<string>Put your PHP code here</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+	</array>
+	<key>icon</key>
+	<string>icon</string>
+	<key>type</key>
+	<string>stack</string>
+	<key>requiresPhp</key>
+	<true/>
+	<key>requiresPhpBuffer</key>
+	<true/>
+	<key>templateFile</key>
+	<string>template.php</string>
+	<key>cssFile</key>
+	<string>style.css</string>
+	<key>tags</key>
+	<array>
+		<string>PHP</string>
+		<string>Code</string>
+		<string>Utility</string>
+		<string>Form</string>
+		<string>if else</string>
+		<string>iSkore</string>
+	</array>
+</dict>
+</plist>

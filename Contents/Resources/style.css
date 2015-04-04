@@ -1,0 +1,20 @@
+#%id% h1 {
+    color: #333;
+    background-color: #fff;
+    font: normal 19px impact;
+    letter-spacing: 1px;
+	padding-bottom: 10px;
+	text-transform: uppercase;
+}#%id% h1:after {
+    border: 1px solid #ccc;
+    color: #c00;
+    font: 11px georgia, 'lucida grande';
+	padding: 1px 5px 2px;
+	border-radius:2px;
+	margin: 0 0 0 8px;
+	top: -4px;
+	letter-spacing: 0;
+	text-transform: none;
+	position: relative;
+    content: '[ PHP ]';
+}
