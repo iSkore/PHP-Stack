@@ -1,0 +1,22 @@
+#%id% h1 {
+    color: #333;
+    background-color: #FFF;
+    font: normal 18px courier;
+	padding-bottom: 5px;
+    padding-top: 5px;
+	text-transform: uppercase;
+}#%id% h1:after {
+    border: 1px solid #ccc;
+    color: #c00;
+    background-color: #FFF;
+    font: 12px georgia, 'lucida grande';
+	padding: 1px 2px 2px;
+	border-radius: 2px;
+	top: -2px;
+	text-transform: none;
+	position: relative;
+    content: '[ PHP ]';
+}
+%[if edit]%
+    %id=collapseA%
+%[endif]%
