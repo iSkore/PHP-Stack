@@ -5,7 +5,7 @@
 	<key>CFBundleIdentifier</key>
 	<string>com.skoredev.stacks.phpStack</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1.0</string>
+	<string>1.1.2</string>
 	<key>title</key>
 	<string>Code PHP</string>
 	<key>subtitle</key>
@@ -16,15 +16,17 @@
 	<array>
 		<dict>
 			<key>default</key>
-			<string>echo (&quot;hello&quot;);</string>
+			<false/>
+			<key>falseValue</key>
+			<string></string>
 			<key>id</key>
-			<string>phpCode</string>
+			<string>collapseA</string>
 			<key>title</key>
-			<string>PHP Here</string>
-			<key>toolTip</key>
-			<string>Put your PHP code here</string>
+			<string>Collapse PHP Stack</string>
+			<key>trueValue</key>
+			<string>#%id% .colA{ display: none; }#%id% .headCode{ color:#FFF;background-color: #646464; }</string>
 			<key>type</key>
-			<string>input</string>
+			<string>checkbox</string>
 		</dict>
 	</array>
 	<key>icon</key>
@@ -32,6 +34,8 @@
 	<key>type</key>
 	<string>stack</string>
 	<key>requiresPhp</key>
+	<true/>
+	<key>phpSession</key>
 	<true/>
 	<key>requiresPhpBuffer</key>
 	<true/>
@@ -45,8 +49,12 @@
 		<string>Code</string>
 		<string>Utility</string>
 		<string>Form</string>
-		<string>if else</string>
+		<string>YourHead Software</string>
+		<string>RapidWeaver</string>
+		<string>Rapid Weaver</string>
+		<string>Stacks</string>
 		<string>iSkore</string>
+		<string>iSkore Development Inc.</string>
 	</array>
 </dict>
 </plist>

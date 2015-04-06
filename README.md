@@ -1,5 +1,4 @@
 # PHP-Stack
-===========
 
 Program in PHP with RapidWeaver Stacks? Us this stack to fix a few of the PHP problems prevalent throughout Stacks and Stacks plugins. Encase other stacks or display information coming from your database, cloud, server, etc.
 
